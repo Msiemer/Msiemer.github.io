@@ -1,4 +1,4 @@
- body{
+body{
      margin: 0px;
      background-color: teal;
 }
@@ -11,7 +11,7 @@ a{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items:baseline;
+    align-items:basline;
     background-color: red;
     height: 50px;
 }
@@ -45,6 +45,7 @@ a{
     display: flex;
     flex-direction:column;
     justify-content:center;
+    margin: auto;
     width: 500px;
     height: 600px;
     margin: 0px 20em 0px 20em;
