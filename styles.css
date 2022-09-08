@@ -28,9 +28,11 @@ a{
 
 .container{
     display: flex;
+    color: #333;
 }
 .image-container{
     flex: 2;
+    height: 1000px;
 }
 .image-source{
     background-size: cover;
@@ -42,15 +44,18 @@ a{
     justify-content:center;
     width: 500px;
     margin: 0em 10em 0em 0em;
+    color: #333;
     
 }
 .header{
     margin-bottom: 0px;
     font-family: sans-serif;
+    color: #333;
 }
 .header-info{
     margin-top: 0px;
     font-family: sans-serif;
+    color: #333;
 }
 .blog-link{
     display: flex;
@@ -58,15 +63,25 @@ a{
     align-items:center;
     width: 400px;
     height: 50px;
-    color: white;
+    color: #FFF !important;
     background-color: #305B90;
     border-radius: 5px;
 }
+.blog-icon {
+    margin-right: 5px;
+    height: 30px;
+    color: #FFF !important;
+}
+.blog-a{
+    color: white;
+}
 .intro {
     font-family: sans-serif;
+    font-weight: 16px;
 }
 .paragraph-link {
     text-decoration: underline;
+    color: #333;
 }
 .works{
     margin: 0px;
@@ -76,7 +91,7 @@ a{
     font-family: sans-serif;
 }
 .educations{
-    margin: 20px 0px 0px 0px;
+    margin: 18px 0px 0px 0px;
 }
 .education{
     margin: 0px 0px 5px 0px;
