@@ -121,3 +121,26 @@ a{
     width: 36px;
 }
 
+@media (max-width: 123.438em){
+    body{
+        color: white;
+    }
+    .container {
+        display: block;
+    }
+    .image-source {
+        display: block;
+        margin-right: 0px;
+        
+    }
+    .header, .header-info{
+        color: white;
+    }
+    .main-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+    }
+    
+}
